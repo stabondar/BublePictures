@@ -8,19 +8,40 @@ main
   display: block;
 }
 
-.burger__item.w--current
+.pointer-none
 {
   pointer-events: none;
 }
 
-.burger__item.w--current .h3--84
+.nav__burger svg
 {
-  color: #7870F1;
+  scale: 1.5;
 }
+
+/* .burger__item--in .h--158 {
+    transform: translateY(1.1vw);
+}    */
+
+.work__title div div:nth-child(2)
+{
+    margin-left: -0.3vw;
+}
+
+.line-mask 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
 
 ::selection
 {
-  background-color: #7870F1;
+  background-color: #D44B43;
   color: white;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-color: transparent;
